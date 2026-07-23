@@ -1,0 +1,25 @@
+paths:
+  model_path: "train_outputs/autoencoder_epoch_368.pth"
+  test_image_path: "bearing_dataset/BPFO/fault_135_30.png"
+  test_file_mat: "data/BPFO/135.mat"
+
+signal:
+  fs: 48000
+  fr: 29.95
+  bpfo_multiplier: 3.585
+  bpfi_multiplier: 5.415
+
+model:
+  latent_dim: 128
+
+image:
+  image_size: 224
+  max_freq_of_image: 6000.0
+
+filter:
+  bandwidth: 2000.0
+  min_lowcut: 500.0
+
+diagnosis:
+  threshold: 0.005
+  tolerance: 0.02

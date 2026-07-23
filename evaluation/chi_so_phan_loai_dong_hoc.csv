@@ -1,0 +1,9 @@
+Metric,Value
+Accuracy,1.0
+Precision,1.0
+Recall,1.0
+F1-Score,1.0
+AUC-ROC (Binary),0.9993333333333333
+AUC-PR (Binary),0.9996295991427075
+Avg Inference Time (ms),17.85968286816829
+Avg Kinematic Error (%),0.2690350569859589

@@ -6,6 +6,7 @@ readme_content = """# AI-Guided Resonance Localization and Physics-Based Verific
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An end-to-end, physics-guided hybrid AI framework for industrial rolling element bearing fault diagnosis. The system combines the spatial noise-filtering capabilities of an unsupervised **Convolutional Autoencoder (CAE)** with deterministic **Physics-Based Kinematic Verification** to achieve highly transparent, robust, and real-time diagnostic performance.
+DEMO:
 <img width="1536" height="754" alt="Figure_1" src="https://github.com/user-attachments/assets/cb98c615-cf4c-4340-a9b4-8d71ff5b7232" />
 
 ---
